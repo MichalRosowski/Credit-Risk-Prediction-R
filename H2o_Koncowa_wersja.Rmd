@@ -9,6 +9,7 @@ h2o.init(nthreads = -1,  # Liczba wątków: -1 oznacza użycie wszystkich dostę
 loan_csv <- "https://raw.githubusercontent.com/h2oai/app-consumer-loan/master/data/loan.csv"
 data <- h2o.importFile(loan_csv)
 ```
+
 ```{r}
 data
 ```
@@ -722,4 +723,5 @@ Pozwala to na rzetelną ocenę jakości modelu i jego zdolności do generalizacj
 
 ```{r}
 h2o.auc(glm_fit2, xval = TRUE)
+
 ```
