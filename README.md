@@ -10,6 +10,7 @@ An analytical project in R aimed at predicting customer default (credit risk) us
 
 ## 📂 File Structure
 * `credit_risk_modeling.Rmd` - The main notebook containing data preparation, model training, evaluation metrics, and business insights.
+* `credit_risk_modeling.html` - An exported HTML report. It allows for a quick preview of the entire code, results, and plots directly in a web browser.
 
 ## ⚙️ How to Run
 To view the code and results, you can open the `.Rmd` file in RStudio or Posit Cloud. Make sure to install the `h2o` package before running the environment:
@@ -28,7 +29,8 @@ Projekt analityczny w języku R, którego celem jest przewidywanie ryzyka kredyt
 
 ## 📂 Struktura plików
 * `credit_risk_modeling.Rmd` - Główny notatnik zawierający przygotowanie danych, trenowanie modelu, metryki ewaluacyjne i wnioski biznesowe.
-
+* `credit_risk_modeling.html` - Wygenerowany raport z analizy. Pozwala na podgląd całego kodu, wyników i wykresów bezpośrednio w przeglądarce.
+  
 ## ⚙️ Jak uruchomić?
 Aby przejrzeć kod i wyniki, możesz otworzyć plik `.Rmd` w RStudio lub Posit Cloud. Upewnij się, że zainstalowałeś pakiet `h2o` przed uruchomieniem środowiska:
 ```R
